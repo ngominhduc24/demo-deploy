@@ -5,7 +5,7 @@ app.use(express.json({ extended: false }));
 
 app.use("", async (req, res) => {
   try {
-    return res.send("Hello Duc!");
+    return res.send("Hello Duc123!");
     // res.json({
     //   status: 200,
     //   message: "Get data has successfully",
